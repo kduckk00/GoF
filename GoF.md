@@ -10,7 +10,7 @@
 
 ## Command 패턴 참여 객체
 
-![image-20211031182259950](images/image-20211031182259950.png)
+![image-20211102090555183](images/image-20211102090555183.png)
 
 <br>
 
@@ -53,7 +53,7 @@
 
 > 버튼이 눌리면 램프의 불이 켜지는 프로그램
 
-![image-20211031185004090](images/image-20211031185004090.png)
+![image-20211102090642347](images/image-20211102090642347.png)
 
 - Button클래스는 Command 인터페이스의 execute메서드를 호출
   - 램프를 켜는 경우 theLamp.turnOn메서드 호출 pressed메서드 수정
@@ -221,9 +221,9 @@ public class Client {
 
 ### 결과
 
-![image-20211031200121275](images/image-20211031200121275.png)
+![image-20211102090946238](images/image-20211102090946238.png)
 
-![image-20211031203345051](images/image-20211031203345051.png)
+
 
 
 
@@ -982,7 +982,7 @@ public class Client {
 
 - Originator의 상태 저장
   - Originator 역할의 내부 정보를 정리
-- Originator역할의 내부 정보를 가지고 있지만, 그 정보를 누구에게도 공개하지 ㅇ낳음
+- Originator역할의 내부 정보를 가지고 있지만, 그 정보를 누구에게도 공개하지 않음
 
 
 
